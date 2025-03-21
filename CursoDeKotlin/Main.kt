@@ -1,10 +1,14 @@
 fun main() {
-    val x = 10
-    val y = 20
-    println(calcular(x, y))
-}
+    // GLOSSARIO (var, val, fun, class, double, String, int)
 
-fun calcular(x: Int, y: Int): Int {
-    val soma = (x + y)
-    return soma
+    // val é uma variável IMUTÁVEL
+    // var é uma variável MUTÁVEL
+
+    val price = 31.40
+    val product = "iMac"
+    val age = 31
+
+    println(price::class)
+    println(product::class)
+    println(age::class)
 }
